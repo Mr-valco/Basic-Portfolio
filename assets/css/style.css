@@ -159,3 +159,31 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
 }
+
+
+/*For portfolio page image structure*/
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.prname{
+    position: relative; 
+    top: 160px; 
+    left: 0; 
+    width: 100%;
+    padding: 25px; 
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+}
+
