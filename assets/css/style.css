@@ -22,7 +22,7 @@ header{
 
   .boxgray{
     position: fixed;
-    top: 108px;
+    top: 102px;
     left: 0;
     width: 100%;
     background-color: lightgray;
@@ -35,10 +35,11 @@ header{
     top: 0;
     float: left;
     margin-left: 20%;
-    padding: 25px;
+    padding: 33px;
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
+    font-size: 40px;
 }
 
 .topnav {
